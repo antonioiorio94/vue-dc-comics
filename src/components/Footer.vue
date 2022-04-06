@@ -71,9 +71,15 @@
             <li>DC Power Visa</li>
           </ul>
         </div>
-        <div class="footer-logo">
-          <img src="../assets/dc-logo-bg.png" alt="logo" />
-        </div>
+      </div>
+      <div class="footer-logo">
+        <img src="../assets/dc-logo-bg.png" alt="logo" />
+      </div>
+    </div>
+    <div class="sign-up-section">
+      <button>SIGN-UP NOW!</button>
+      <div>
+        <h3>FOLLOW US</h3>
       </div>
     </div>
   </footer>
@@ -119,7 +125,6 @@ export default {
   display: flex;
 
   .link-container {
-    width: 70%;
     margin: 0 auto;
     display: flex;
     padding: 2rem;
@@ -127,10 +132,21 @@ export default {
     ul {
       list-style-type: none;
       color: #fff;
+      text-align: initial;
+      margin-right: 3rem;
+      margin-bottom: 1rem;
+      h3 {
+        margin-bottom: 1rem;
+      }
       li {
         color: rgb(122, 122, 122);
+        padding: 2px;
       }
     }
   }
+}
+
+.sign-up-section {
+  background-color: #000;
 }
 </style>
