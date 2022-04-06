@@ -42,6 +42,7 @@ ul {
   display: flex;
   list-style-type: none;
   text-transform: uppercase;
+  color: rgb(53, 53, 53);
 
   li {
     padding: 10px;
