@@ -1,5 +1,26 @@
 <template>
-  <h1>Header</h1>
+  <header>
+    <!-- Logo -->
+    <div>
+      <img src="../assets/dc-logo.png" alt="Dc-Logo" />
+    </div>
+
+    <!-- Navbar -->
+    <div>
+      <ul>
+        <li>Characters</li>
+        <li>Comics</li>
+        <li>Movies</li>
+        <li>TV</li>
+        <li>Games</li>
+        <li>Collectibles</li>
+        <li>Videos</li>
+        <li>Fans</li>
+        <li>News</li>
+        <li>Shop</li>
+      </ul>
+    </div>
+  </header>
 </template>
 
 <script>
@@ -8,4 +29,22 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: bolder;
+  padding: 2rem;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  text-transform: uppercase;
+
+  li {
+    padding: 10px;
+  }
+}
+</style>
