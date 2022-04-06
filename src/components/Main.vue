@@ -1,5 +1,9 @@
 <template>
-  <main>Main</main>
+  <main>
+    <div>
+      <h2>-- Content goes here --</h2>
+    </div>
+  </main>
 </template>
 
 <script>
@@ -8,4 +12,12 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+main {
+  background-color: #000;
+  div {
+    padding: 50px;
+    color: white;
+  }
+}
+</style>
