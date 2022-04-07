@@ -2,13 +2,13 @@
   <header>
     <!-- Logo -->
     <div>
-      <img src="../assets/dc-logo.png" alt="Dc-Logo" />
+      <img src="@/assets/dc-logo.png" alt="Dc-Logo" />
     </div>
 
     <!-- Navbar -->
     <div>
       <ul>
-        <li v-for="item in navBarMenu" :key="item">{{ item }}</li>
+        <li v-for="item in navLinks" :key="item">{{ item }}</li>
       </ul>
     </div>
   </header>
@@ -17,22 +17,7 @@
 <script>
 export default {
   name: "headerComponent",
-  data() {
-    return {
-      navBarMenu: [
-        "Characters",
-        "Comics",
-        "Movies",
-        "TV",
-        "Games",
-        "Collectibles",
-        "Videos",
-        "Fans",
-        "News",
-        "Shop",
-      ],
-    };
-  },
+  props: ["navLinks"],
 };
 </script>
 

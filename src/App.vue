@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header />
+    <Header :navLinks="navBarMenu" />
     <Main />
     <Footer />
   </div>
@@ -17,6 +17,22 @@ export default {
     Header,
     Main,
     Footer,
+  },
+  data() {
+    return {
+      navBarMenu: [
+        "Characters",
+        "Comics",
+        "Movies",
+        "TV",
+        "Games",
+        "Collectibles",
+        "Videos",
+        "Fans",
+        "News",
+        "Shop",
+      ],
+    };
   },
 };
 </script>

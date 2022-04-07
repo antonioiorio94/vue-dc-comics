@@ -4,23 +4,23 @@
     <div class="banner">
       <div class="banner-conteiner">
         <div class="banner-card">
-          <img src="../assets/buy-comics-digital-comics.png" alt="buy_comics" />
+          <img src="@/assets/buy-comics-digital-comics.png" alt="buy_comics" />
           <p>DIGITAL COMICS</p>
         </div>
         <div class="banner-card">
-          <img src="../assets/buy-comics-merchandise.png" alt="merch_comics" />
+          <img src="@/assets/buy-comics-merchandise.png" alt="merch_comics" />
           <p>DC MERCHANDISE</p>
         </div>
         <div class="banner-card">
-          <img src="../assets/buy-comics-subscriptions.png" alt="shop_comics" />
+          <img src="@/assets/buy-comics-subscriptions.png" alt="shop_comics" />
           <p>SUBSCRIPTION</p>
         </div>
         <div class="banner-card">
-          <img src="../assets/buy-comics-shop-locator.png" alt="sub_comics" />
+          <img src="@/assets/buy-comics-shop-locator.png" alt="sub_comics" />
           <p>COMIC SHOP LOCATOR</p>
         </div>
         <div class="banner-card">
-          <img src="../assets/buy-dc-power-visa.svg" alt="visa_comics" />
+          <img src="@/assets/buy-dc-power-visa.svg" alt="visa_comics" />
           <p>DC POWER VISA</p>
         </div>
       </div>
