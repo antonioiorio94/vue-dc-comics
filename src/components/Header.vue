@@ -17,7 +17,7 @@
 <script>
 export default {
   name: "headerComponent",
-  props: ["navLinks"],
+  props: { navLinks: Array },
 };
 </script>
 

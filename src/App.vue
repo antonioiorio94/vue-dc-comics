@@ -10,6 +10,7 @@
 import Header from "./components/Header.vue";
 import Footer from "./components/Footer.vue";
 import Main from "./components/Main.vue";
+import Comics from "@/assets/data/dc-comics";
 
 export default {
   name: "App",
@@ -20,6 +21,7 @@ export default {
   },
   data() {
     return {
+      Comics,
       navBarMenu: [
         "Characters",
         "Comics",
